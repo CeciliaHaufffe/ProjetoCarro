@@ -2,13 +2,13 @@ package POO;
 
 public class Pessoa {
 
-    double Altura;
-    String Nome;
-    double Peso;
-    String Etnia;
-    String Genero;
-    int Idade;
-    Carro carro;
+    private double  Altura;
+     String Nome;
+    private double Peso;
+    private String Etnia;
+    private String Genero;
+    private int Idade;
+    private Carro carro;
 
     void ligarCarro(){
         carro.ligar();

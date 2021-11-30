@@ -2,14 +2,14 @@ package POO;
 
 public class Carro {
 
-    String tipo;
-    String cor;
-    String placa;
-    int numPortas;
-    Pessoa dono;
-    int cambio;
+    private String tipo;
+    private String cor;
+    private String placa;
+    private int numPortas;
+    private Pessoa dono;
+    private int cambio;
 
-    public Carro(String tipo, String cor, String placa, int numPortas) {
+    private Carro(String tipo, String cor, String placa, int numPortas) {
         this.tipo = tipo;
         this.cor = cor;
         this.placa = placa;

@@ -7,9 +7,9 @@ public class Carro {
     private String placa;
     private int numPortas;
     private Pessoa dono;
-    private int cambio;
+    int cambio;
 
-    private Carro(String tipo, String cor, String placa, int numPortas) {
+    Carro(String tipo, String cor, String placa, int numPortas) {
         this.tipo = tipo;
         this.cor = cor;
         this.placa = placa;
